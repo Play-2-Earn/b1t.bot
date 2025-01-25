@@ -73,7 +73,9 @@ const App = () => {
             animate={{ opacity: 1, y: 0 }}
             className="inline-block mb-8"
           >
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-600 text-xs px-4 py-2 rounded-full font-semibold">
+            <div className="relative inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm px-6 py-3 rounded-full font-semibold shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <span className="absolute -top-2 -left-2 w-5 h-5 bg-pink-500 rounded-full animate-ping"></span>
+              <span className="absolute -bottom-2 -right-2 w-5 h-5 bg-yellow-500 rounded-full animate-ping"></span>
               🚀 NEXT-GEN TRADING PLATFORM
             </div>
           </motion.div>
@@ -107,10 +109,16 @@ const App = () => {
             className="flex gap-4"
           >
             <button className="group relative bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-lg font-semibold transition-all overflow-hidden">
-              <span className="relative z-10 flex items-center gap-2">
-                Start Free Trial{" "}
-                <FiArrowUpRight className="transition-transform group-hover:rotate-45" />
-              </span>
+              <a
+                href="https://b1tcoin.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="relative z-10 flex items-center gap-2">
+                  Start Free Trial{" "}
+                  <FiArrowUpRight className="transition-transform group-hover:rotate-45" />
+                </span>
+              </a>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/30 to-blue-500/30 opacity-0 group-hover:opacity-100 transition-opacity" />
             </button>
             <button className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all">
