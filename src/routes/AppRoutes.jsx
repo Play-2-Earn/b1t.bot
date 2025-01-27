@@ -25,6 +25,27 @@ import Order from "../pages/Order";
 import Temporal from "../pages/Temporal";
 import Sentiment from "../pages/Sentiment";
 import Transaction from "../pages/Transaction";
+import ETOCBPPage from "../pages/ETOC";// Import the ETOCBPPage component
+import CTFPPage from "../pages/CTFP";
+import BCPMLAPage from "../pages/BCPM"; // Import the BCPMLAPage component
+import EIDOPage from "../pages/EIDO"; 
+import LHCBPage from "../pages/LHCB";
+import B1TPage from "../pages/B1T";
+import NOCVPage from "../pages/NOCV";
+import METPPage from "../pages/METP";
+import TTEPage from "../pages/TTE";
+import TBCCPage from "../pages/TBCC";
+import TLHSPage from "../pages/TLHS";
+import TRRPage from "../pages/TRR";
+import TNDNPage from "../pages/TNDN";
+import About from "../pages/About";
+import Blog from "../pages/Blog";
+import Content from "../pages/Content";
+import Display from "../pages/Display";
+import Home from "../pages/Home";
+import Spam from "../pages/Spam";
+import View from "../pages/View";
+import ViewPage from "../pages/ViewPage";
 
 const AppRoutes = () => (
   <Routes>
@@ -56,6 +77,28 @@ const AppRoutes = () => (
     <Route path="/Temporal" element={<Temporal />} />
     <Route path="/Sentiment" element={<Sentiment />} />
     <Route path="/Transaction" element={<Transaction />} />
+    <Route path="/etoc" element={<ETOCBPPage />} />
+    <Route path="/bcpmla" element={<BCPMLAPage />} />
+    <Route path="/ctfp" element={<CTFPPage/>}/>
+    <Route path="/eido" element={<EIDOPage/>}/>
+    <Route path="/lhcb" element={<LHCBPage/>}/>
+    <Route path="/b1t" element={<B1TPage/>}/>
+    <Route path="/nocv" element={<NOCVPage/>}/>
+    <Route path="/metp" element={<METPPage/>}/>
+    <Route path="/tte" element={<TTEPage/>}/>
+    <Route path="/tbcc" element={<TBCCPage/>}/>
+    <Route path="/tlhs" element={<TLHSPage/>}/>
+    <Route path="/trr" element={<TRRPage/>}/>
+    <Route path="/tndn" element={<TNDNPage/>}/>
+    <Route path="/about" element={<About/>}/>
+    <Route path="/blog" element={<Blog/>}/>
+    <Route path="/content" element={<Content/>}/>
+    <Route path="/display" element={<Display/>}/>
+    <Route path="/home" element={<Home/>}/>
+    <Route path="/spam" element={<Spam/>}/>
+    <Route path="/view" element={<View/>}/>
+    <Route path="/viewpage" element={<ViewPage/>}/>
+
   </Routes>
 );
 
