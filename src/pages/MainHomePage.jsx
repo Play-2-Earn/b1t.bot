@@ -199,264 +199,119 @@ const Main = () => {
             >
               Decoding the Bitcoin "Memespace →
             </Link>
-            <button
-              onClick={() => setShowMore(!showMore)}
-              className="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-lg font-semibold text-white transition-all"
+            <Link
+              to="/ChronometricArbitrage"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
             >
-              {showMore ? "Show Less ↑" : "Show More ↓"}
-            </button>
-
-            {/* Remaining Links */}
-            {showMore && (
-              <div className="flex flex-wrap gap-4 mt-4">
-                <Link
-                  to="/Home"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Home
-                </Link>
-                <Link
-                  to="/About"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  About
-                </Link>
-                <Link
-                  to="/Content"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Content
-                </Link>
-                <Link
-                  to="/Display"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Display
-                </Link>
-                <Link
-                  to="/Blog"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Blog
-                </Link>
-                <Link
-                  to="/View"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  View
-                </Link>
-                <Link
-                  to="/Viewpage"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  View Page
-                </Link>
-                <Link
-                  to="/Spam"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Spam
-                </Link>
-
-                <Link
-                  to="/ChronometricArbitrage"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Chronometric Arbitrage: Exploiting Time Dilation and
-                  Inter-Exchange Latency Discrepancies for Picosecond Alpha with
-                  B1T.BOT →
-                </Link>
-                <Link
-                  to="/AstroEconomicTrading"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Astro-Economic Trading: Harnessing Celestial Mechanics and
-                  Gravitational Influences for Predictive Bitcoin Market
-                  Analysis with B1T.BOT →
-                </Link>
-                <Link
-                  to="/QuantumResistant"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Quantum-Resistant Algorithmic Camouflage: Harnessing Chaos
-                  Theory and Adversarial Machine Learning for Post-Quantum
-                  Dominance with B1T.BOT →
-                </Link>
-                <Link
-                  to="/IntraVolume"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Intra-Volume Spread Dynamics: Decoding Hidden Order Flow and
-                  Exploiting Micro-Inefficiencies with B1T.BOT T →
-                </Link>
-                <Link
-                  to="/CrossBorder"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Cross-Border Regulatory Arbitrage: Exploiting Disparate Crypto
-                  Regulations for Global Alpha with B1T.BOT →
-                </Link>
-                <Link
-                  to="/MemeMomentum"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Meme Momentum and Hype Cycle Hijacking: Riding the Waves of
-                  Viral Trends with B1T.BOT →
-                </Link>
-                <Link
-                  to="/DustConsolidation"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Dust Consolidation and UTXO Fragmentation Analysis: Decoding
-                  On-Chain Footprints for Predictive Bitcoin Trading with
-                  B1T.BOT →
-                </Link>
-                <Link
-                  to="/SmartMoney"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  "Smart Money" vs. "Dumb Money" Divergence: Exploiting the
-                  Sentiment-On-Chain Gap for Contrarian Bitcoin Alpha with
-                  B1T.BOT →
-                </Link>
-                <Link
-                  to="/FeeSniping"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Fee Sniping and Priority Signaling: Exploiting the Bitcoin Fee
-                  Market for Predictive Alpha with B1T.BOT →
-                </Link>
-                <Link
-                  to="/Echo"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Echo Chamber Infiltration and Narrative Warfare: Exploiting
-                  Social Network Dynamics for Asymmetric Bitcoin Alpha with
-                  B1T.BOT →
-                </Link>
-                <Link
-                  to="/Supply"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Supply Chain Shock and Stock-to-Flow Disparity: Exploiting
-                  Bitcoin's Halving Cycles and Miner Behavior for Asymmetric
-                  Alpha with B1T.BOT →
-                </Link>
-                <Link
-                  to="/Order"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Order Book Dynamics and Realized Volatility Skew: Exploiting
-                  Asymmetry in Liquidity and Price Fluctuations for Enhanced
-                  Alpha with B1T.BOT →
-                </Link>
-                <Link
-                  to="/Temporal"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Temporal Heuristics and On-Chain Seasonality: Exploiting
-                  Time-Based Patterns in Bitcoin Activity for Predictive Alpha
-                  with B1T.BOT →
-                </Link>
-                <Link
-                  to="/Sentiment"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Sentiment-On-Chain Divergence and Information Asymmetry:
-                  Exploiting Gaps in Market Knowledge for Predictive Alpha with
-                  B1T.BOT T →
-                </Link>
-                <Link
-                  to="/Transaction"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Transaction Network Topology and Cluster Analysis: Mapping
-                  Bitcoin's On-Chain Relationships for Predictive Alpha with
-                  B1T.BOT →
-                </Link>
-                <Link
-                  to="/ETOC"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Entity Tracking and On-Chain Behavioral Profiling: Decoding the Activities of Key Market Participants for Predictive Alpha with B1T.BOT
-                </Link>
-                <Link
-                  to="/BCPMLA"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Block Confirmation Probabilities and Mempool Latency Arbitrage
-                </Link>
-                <Link
-                  to="/CTFP"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Coin Taint and Fungibility Premiums: Exploiting the Bitcoin Traceability Landscape for Market Inefficiencies with B1T.BOT
-                </Link>
-                <Link
-                  to="/NOCV"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Narrative and On-Chain Validation: Discerning Hype from Reality for Asymmetric Bitcoin Alpha with B1T.BOT
-                </Link>
-                <Link
-                  to="/LHCB"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Long-Term Holder Cost Basis and Supply Squeeze Scenarios
-                </Link>
-                <Link
-                  to="/EIDO"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Exchange Inventory Depletion and On-Chain Reserves: Forecasting Supply Shocks and Liquidity Crises on Centralized Exchanges with B1T.BOT
-                </Link>
-                <Link
-                  to="/METP"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  Miner Economics and the Pre-Halving Shakeout: Exploiting Hashrate Volatility and Fee Dependency for Strategic Bitcoin Accumulation with B1T.BOT
-                </Link>
-                <Link
-                  to="/TTE"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  The Trifecta Edge: Fusing MEPHS, Sentiment Analysis, and On-Chain Demographics for Advanced Bitcoin Trading with B1T.BOT
-                </Link>
-                <Link
-                  to="/B1T"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  The Bybit Contango Crusher: A Practical B1T.BOT Strategy for Exploiting Bitcoin Futures Term Structure
-                </Link>
-                <Link
-                  to="/TBCC"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  The Whale Rider: A B1T.BOT Strategy for Surfing the Waves of Large Bitcoin Transactions
-                </Link>
-                <Link
-                  to="/TLHS"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  The Lightning Harvester: A B1T.BOT Strategy for Exploiting Liquidity Imbalances and Fee Arbitrage on the Bitcoin Lightning Network
-                </Link>
-                <Link
-                  to="/TRR"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  The Reorg Raider: A B1T.BOT Strategy for Exploiting Temporal Anomalies and Blockchain Reorganizations in the Bitcoin Market
-                </Link>
-                <Link
-                  to="/TNDN"
-                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
-                >
-                  The News Divergence Navigator: A B1T.BOT Strategy for Exploiting Discrepancies Between Bitcoin News Sentiment and On-Chain Fundamentals
-                </Link>
-
-
-
-              </div>
-            )}
+              Chronometric Arbitrage: Exploiting Time Dilation and
+              Inter-Exchange Latency Discrepancies for Picosecond Alpha with
+              B1T.BOT →
+            </Link>
+            <Link
+              to="/AstroEconomicTrading"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Astro-Economic Trading: Harnessing Celestial Mechanics and
+              Gravitational Influences for Predictive Bitcoin Market Analysis
+              with B1T.BOT →
+            </Link>
+            <Link
+              to="/QuantumResistant"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Quantum-Resistant Algorithmic Camouflage: Harnessing Chaos Theory
+              and Adversarial Machine Learning for Post-Quantum Dominance with
+              B1T.BOT →
+            </Link>
+            <Link
+              to="/IntraVolume"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Intra-Volume Spread Dynamics: Decoding Hidden Order Flow and
+              Exploiting Micro-Inefficiencies with B1T.BOT T →
+            </Link>
+            <Link
+              to="/CrossBorder"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Cross-Border Regulatory Arbitrage: Exploiting Disparate Crypto
+              Regulations for Global Alpha with B1T.BOT →
+            </Link>
+            <Link
+              to="/MemeMomentum"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Meme Momentum and Hype Cycle Hijacking: Riding the Waves of Viral
+              Trends with B1T.BOT →
+            </Link>
+            <Link
+              to="/DustConsolidation"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Dust Consolidation and UTXO Fragmentation Analysis: Decoding
+              On-Chain Footprints for Predictive Bitcoin Trading with B1T.BOT →
+            </Link>
+            <Link
+              to="/SmartMoney"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              "Smart Money" vs. "Dumb Money" Divergence: Exploiting the
+              Sentiment-On-Chain Gap for Contrarian Bitcoin Alpha with B1T.BOT →
+            </Link>
+            <Link
+              to="/FeeSniping"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Fee Sniping and Priority Signaling: Exploiting the Bitcoin Fee
+              Market for Predictive Alpha with B1T.BOT →
+            </Link>
+            <Link
+              to="/Echo"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Echo Chamber Infiltration and Narrative Warfare: Exploiting Social
+              Network Dynamics for Asymmetric Bitcoin Alpha with B1T.BOT →
+            </Link>
+            <Link
+              to="/Supply"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Supply Chain Shock and Stock-to-Flow Disparity: Exploiting
+              Bitcoin's Halving Cycles and Miner Behavior for Asymmetric Alpha
+              with B1T.BOT →
+            </Link>
+            <Link
+              to="/Order"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Order Book Dynamics and Realized Volatility Skew: Exploiting
+              Asymmetry in Liquidity and Price Fluctuations for Enhanced Alpha
+              with B1T.BOT →
+            </Link>
+            <Link
+              to="/Temporal"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Temporal Heuristics and On-Chain Seasonality: Exploiting
+              Time-Based Patterns in Bitcoin Activity for Predictive Alpha with
+              B1T.BOT →
+            </Link>
+            <Link
+              to="/Sentiment"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Sentiment-On-Chain Divergence and Information Asymmetry:
+              Exploiting Gaps in Market Knowledge for Predictive Alpha with
+              B1T.BOT T →
+            </Link>
+            <Link
+              to="/Transaction"
+              className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+            >
+              Transaction Network Topology and Cluster Analysis: Mapping
+              Bitcoin's On-Chain Relationships for Predictive Alpha with B1T.BOT
+              →
+            </Link>
           </motion.div>
         </div>
       </section>
