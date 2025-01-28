@@ -46,6 +46,10 @@ import Home from "../pages/Home";
 import Spam from "../pages/Spam";
 import View from "../pages/View";
 import ViewPage from "../pages/ViewPage";
+import ContentPage from "../pages/ContentPage";
+import DisplayPage from "../pages/DisplayPage";
+import Page from "../pages/Page";
+import MainPage from "../pages/MainPage";
 
 const AppRoutes = () => (
   <Routes>
@@ -98,6 +102,10 @@ const AppRoutes = () => (
     <Route path="/spam" element={<Spam/>}/>
     <Route path="/view" element={<View/>}/>
     <Route path="/viewpage" element={<ViewPage/>}/>
+    <Route path="/contentpage" element={<ContentPage/>}/>
+    <Route path="/displaypage" element={<DisplayPage/>}/>
+    <Route path="/page" element={<Page/>}/>
+    <Route path="/mainpage" element={<MainPage/>}/>
 
   </Routes>
 );
