@@ -257,6 +257,31 @@ const Main = () => {
                 >
                   Spam
                 </Link>
+                <Link
+                  to="/ContentPage"
+                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+                >
+                  Content Page
+                </Link>
+                <Link
+                  to="/DisplayPage"
+                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+                >
+                  Display Page
+                </Link>
+                <Link
+                  to="/Page"
+                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+                >
+                  Page
+                </Link>
+                <Link
+                  to="/MainPage"
+                  className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
+                >
+                  Main Page
+                </Link>
+                
 
                 <Link
                   to="/ChronometricArbitrage"
