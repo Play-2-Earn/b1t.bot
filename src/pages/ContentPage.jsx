@@ -73,7 +73,7 @@ const ContentPage = () => {
 
         {/* Continue with other sections in similar fashion... */}
       </div>
-    </div>
+      </div>
   );
 };
 

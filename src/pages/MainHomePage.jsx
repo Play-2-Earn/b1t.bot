@@ -276,7 +276,7 @@ const Main = () => {
                   Page
                 </Link>
                 <Link
-                  to="/Main Page"
+                  to="/MainPage"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
                   Main Page
