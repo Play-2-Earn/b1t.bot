@@ -213,73 +213,75 @@ const Main = () => {
                   to="/Home"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Home
+                  Supply Shock Exhaustion and On-Chain Velocity: Identifying Inflection Points in Bitcoin's Scarcity Narrative with B1T.BOT
                 </Link>
                 <Link
                   to="/About"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  About
+                  Spent Output Profit Ratio (SOPR) Reversion and Realized Cap Thermocline:
+                  Exploiting On-Chain Profit-Taking Behavior for Cyclical Alpha with B1T.BOT
                 </Link>
                 <Link
                   to="/Content"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Content
+                  Microstructural Imbalances and Liquidity Shocks: Exploiting Order Flow Asymmetries for High-Frequency Alpha with B1T.BOT
                 </Link>
                 <Link
                   to="/Display"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Display
+                  Supply Shock Exhaustion and On-Chain Velocity: Identifying Inflection Points in Bitcoin's Scarcity Narrative with B1T.BOT
                 </Link>
                 <Link
                   to="/Blog"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Blog
+                  Supply Shock Exhaustion and On-Chain Velocity:  
+                  Identifying Inflection Points in Bitcoin's Scarcity Narrative with B1T.BOT
                 </Link>
                 <Link
                   to="/View"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  View
+                  Miner Price Auction Dynamics and Fee Efficiency: Exploiting the Bitcoin Fee Market for Strategic Transaction Inclusion with B1T.BOT
                 </Link>
                 <Link
                   to="/Viewpage"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  View Page
+                  The Three-Pronged Oracle: A B1T.BOT Strategy for Predicting Bitcoin Price Movements
                 </Link>
                 <Link
                   to="/Spam"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Spam
+                  The Multi-Exchange Microstructure Maven: A B1T.BOT Strategy for Exploiting Volume Imbalances, Order Book Discrepancies, and On-Chain Fee Dynamics
                 </Link>
                 <Link
                   to="/ContentPage"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Content Page
+                  Macroeconomic Sentiment Shifts and On-Chain Realignment: Exploiting Global Economic Events for Predictive Bitcoin Alpha with B1T.BOT
                 </Link>
                 <Link
                   to="/DisplayPage"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Display Page
+                  The Multi-Exchange Microstructure Maven: A B1T.BOT Strategy for Exploiting Volume Imbalances, Order Book Discrepancies, and On-Chain Fee Dynamics
                 </Link>
                 <Link
                   to="/Page"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Page
+                   CoinJoin Obfuscation and Mempool Privacy Leakage: Exploiting Transaction Privacy Dynamics for Predictive Alpha with B1T.BOT
                 </Link>
                 <Link
                   to="/MainPage"
                   className="border-2 border-cyan-500/50 text-cyan-400 hover:border-cyan-400 px-8 py-4 rounded-xl transition-all"
                 >
-                  Main Page
+                  The Hash Ribbons Redux: A B1T.BOT Strategy for Predicting Miner Capitulation and Re-accumulation Using Scheduled Address Activity
                 </Link>
                 
 
